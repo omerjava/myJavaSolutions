@@ -6,7 +6,7 @@ public class StudySheet {
         String[] arr=str.split(" ");
         System.out.println(Arrays.toString(arr));
         String joinedStr=String.join(" ",arr);
-        System.out.println(joinedStr);
+        System.out.println("joined array: "+ joinedStr);
 
         String str2 = String.join(" ", "My", "name", "is", "Niraj", "Pandey");
         System.out.println(str2);
